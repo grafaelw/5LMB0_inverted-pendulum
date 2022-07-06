@@ -1,5 +1,5 @@
 # 5LMB0_inverted-pendulum using MPC
-Assigments from 5LMB0 - Model Predictive Control course in TU EIndhoven for 2021/2022 academic year. The task is to implement a robust MPC, from linear MPC up to LPV-MPC to control the non-linear dynamics. The Electrically-driven Inverted Pendulum is based on Section 8.5.2 page 171 from Hanema J., Anticipative MPC for LPV, 2018. Most of the time, this implementation requires the [`MPT3 toolbox`](https://www.mpt3.org/) and also [`YALMIP`](https://yalmip.github.io/)
+Assigments from 5LMB0 - Model Predictive Control course in TU EIndhoven for 2021/2022 academic year. The task is to implement a robust MPC, from linear MPC up to LPV-MPC to control the non-linear dynamics. The Electrically-driven Inverted Pendulum is based on Section 8.5.2 page 171 from Hanema J., Anticipative MPC for LPV, 2018. This implementation requires the additional [`MPT3`](https://www.mpt3.org/) toolbox and [`YALMIP`](https://yalmip.github.io/). For nicer implementations, one can also try to use the `GUROBI` inside the [`YALMIP`](https://yalmip.github.io/) as well. We managed to do this, however, it gives some crashes to my colleague's setup, thus it is recommended for the LPV-MPV to use the built-in YALMIP optimizers.
 
 1. **Graded Assignment 1**
 
