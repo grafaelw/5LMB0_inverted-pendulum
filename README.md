@@ -1,5 +1,5 @@
 # 5LMB0_inverted-pendulum using MPC
-Assigments from 5LMB0 - Model Predictive Control course in TU EIndhoven for 2021/2022 academic year. The task is to implement a robust MPC, from linear MPC up to LPV-MPC to control the non-linear dynamics. The Electrically-driven Inverted Pendulum is based on Section 8.5.2 page 171 from Hanema J., Anticipative MPC for LPV, 2018. 
+Assigments from 5LMB0 - Model Predictive Control course in TU EIndhoven for 2021/2022 academic year. The task is to implement a robust MPC, from linear MPC up to LPV-MPC to control the non-linear dynamics. The Electrically-driven Inverted Pendulum is based on Section 8.5.2 page 171 from Hanema J., Anticipative MPC for LPV, 2018. Most of the time, this implementation requires the [`MPT3 toolbox`](https://www.mpt3.org/) and also [`YALMIP`](https://yalmip.github.io/)
 
 1. **Graded Assignment 1**
 
